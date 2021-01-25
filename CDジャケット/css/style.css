@@ -1,0 +1,160 @@
+body {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+
+}
+
+.container {
+    max-width: 800px; /*スマホ用*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+
+}
+
+
+header {
+    background-color: #422814;
+    padding: 10px; /*COCOAの余白*/
+    color: #ffffff;
+
+
+}
+
+header h1 { /*COCOAのみ変更*/
+    margin: 0;  /*余計な余白を削除*/
+    font-size: 24px;
+    font-weight: normal; /*太字を削除*/
+    text-align: center;
+    font-family: serif;
+}
+
+.description {
+    clear: left;
+}
+.description img {
+    float: left;
+    margin: 0 10px 10px 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+
+}
+
+.description img:hover {
+    opacity: .5;
+}
+
+.information h1 {
+    font-size: 18px;
+    margin: 0 10px 10px 0;
+    float: left;
+
+}
+
+.information .type {
+    background-color: #ee3355;
+    display: inline;
+    padding: 3px 5px;
+    font-size: 80%;
+    color: #ffffff;
+
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.songs {
+    margin: 0 0 20px;
+}
+
+.songs h2 {
+    clear: left;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+    background-color: #e6e4dd;
+
+
+}
+
+.songs ol {
+    padding: 0;
+    margin: 0;
+    list-style: decimal inside;
+}
+
+.songs li {
+    max-width: 100%;
+    border-bottom: 1px solid#ccc;
+    width: 45%;
+    float: left;
+    padding: 5px 10px;
+}
+
+.clearfix:after {/*後で調べる*/
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #666;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+}
+
+@media only screen and(max-width: 600px) {
+    .description img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    header {
+        padding: 5px;
+    }
+    header h1 {
+        font-size: 12px;
+    }
+
+    .information h1 {
+        font-size: 14px;
+    }
+
+    .songs {
+        float: none;
+        width: inherit;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
